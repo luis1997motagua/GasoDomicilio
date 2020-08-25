@@ -1,0 +1,130 @@
+main{
+  
+    padding:15% 10% 15% 10%;
+    background-color: #303030;
+    color: white;
+    margin-bottom: 1.5em;
+    margin-top: 0;
+    font-family: 'Varta', sans-serif;
+    max-width: 100%;
+    
+  }
+  
+  form{
+    background-color:#303030;
+    color: white;
+  
+  }
+  input[type=text]{
+   background-color:white;
+   
+  }
+  
+  input[type=email]{
+    background-color:white;
+    
+   }
+  
+   input[type=datetime-local]{
+    background-color:white;
+    padding: 10px 10px 0.5px 1em;
+   }
+  
+  input[type=password]{
+    background-color:white;
+    margin-bottom: 10px;
+    
+   }
+   
+   
+  article p{
+     
+    color:white;
+    text-align: justify;
+    font-style: initial;
+    
+  }
+   
+  .contenedor{
+  
+   background-color:#303030;
+   padding: 10% 10% 30% 10%;
+   align-content: center;
+   
+  }
+  .cont{
+    background-color:#303030;
+   padding: 10% 10% 70% 10%;
+   align-content: center;
+  }
+  
+  .classPedido{
+    padding: 10% 10% 70% 10%;
+  }
+  
+  .Btn_grbg{
+  background-color:rgb(255, 255, 255);
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 10%;
+  
+  }
+  
+  .contenedorPerfil{
+    display: flexbox;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    border: lightsteelblue;
+    border-radius: 10rem;
+    padding: 10px;
+  }
+  
+  .datos{
+    display: flex;
+    padding: 10% 10% 30% 10%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    
+  }
+  
+  .perfil{
+    border-style: double;
+    border-radius: 2em;
+  
+  }
+  
+  .classPedido{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  } 
+  
+  .classRadio{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .classRadio h1{
+    font-size: 2em;
+  }
