@@ -1,0 +1,29 @@
+.listholder {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 122px);
+    margin-left: -1em;
+    margin-right: -1em;
+    margin-bottom: 67px;
+    margin-top: -4px;
+    overflow: auto;
+  }
+  .listItem {
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5em;
+    background-color: #000;
+    border-bottom: 1px solid #333;
+    min-height: 2em;
+    align-items: center;
+  }
+  .listItem b:first-child {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .listItem .info{
+    color:#333;
+    font-size: 2em;
+    
+  }
