@@ -56,7 +56,7 @@ export default class extends Component {
           <Redirect to={tourl}/>
         )
       }
-    
+
     
     return (
         <Page
